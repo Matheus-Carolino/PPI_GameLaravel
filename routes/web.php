@@ -29,7 +29,7 @@ Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::get('/exibir/ranking', [ModalController::class, 'exibirRanking']);
 
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/autenticar', [AuthController::class, 'login']);
 
 Route::get('/register/form', [ModalController::class, 'registerForm']);
 

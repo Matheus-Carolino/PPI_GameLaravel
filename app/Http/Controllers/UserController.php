@@ -22,6 +22,6 @@ class UserController extends Controller
 
         session()->flash('msg', ['tipo' => 'success', 'text' => 'User registered']);
 
-        return redirect('/login');
+        return redirect('/');
     }
 }

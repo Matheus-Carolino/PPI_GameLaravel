@@ -12,7 +12,7 @@
                 <div class="d-flex justify-content-center">
                     <img src="https://logosmarcas.net/wp-content/uploads/2020/05/Pokemon-Logo.png" alt="pokemon logo" style="width: 40%">
                 </div>
-                <form action="/login" method="POST">
+                <form action="/autenticar" method="POST">
                     @csrf
                     <div class="form-group mb-3 m-auto">
                         <input type="email" class="form-control" name="email" id="emailId" placeholder="Email" required>
