@@ -12,13 +12,13 @@ class AuthController extends Controller
             return redirect('/index');
         }else{
             session()->flash('msg', ['tipo' => 'warning', 'text' => 'Email or Password Invalid!']);
-            return redirect('/login');
+            return redirect('/');
         }
     }
 
     public function logout(){
         session()->flush();
 
-        return redirect('/login');
+        return redirect('/');
     }
 }
