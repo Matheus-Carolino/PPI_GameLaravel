@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form, .modal-content{
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-control, .form-control:active{
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid transparent !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 40px;
+    padding: 20px 40px;
+}
+
+.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form-control:focus, .form-control:hover{
+    box-shadow: none;
+    border: 1px solid white !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.field-icon{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 16pt;
+}
+
+.btn-success{
+    background-color: #028a0f !important;
+}
+
+.btn-close{
+    background-color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.2) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
